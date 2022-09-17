@@ -7,8 +7,8 @@ import styles from './scss/app.module.scss'
 import { Container } from '@mui/system';
 import { Box, CircularProgress, Grid, Pagination } from '@mui/material';
 import TopBar from './components/TopBar';
+import API_KEY from './secrets.js'
 
-const API_KEY = 'd0497f20-61a5-4b11-93a6-8fc3527ba499'
 
 pokemon.configure({apiKey: API_KEY});
 
