@@ -1,0 +1,24 @@
+.searchBox {
+    padding: 0 25px;
+    @media (max-width: 720px) {
+        padding: 5px;
+    }
+    .searchInput {
+        &Dark {
+            * {
+                color: white;
+                border-color: #fefefe !important;
+            }
+        }
+
+        @media (max-width: 480px) {
+            width: 100%;
+        }
+    }
+    .searchButton {
+        @media (max-width: 480px) {
+            width: 100%;
+            margin: 10px 0;
+        }
+    }
+}

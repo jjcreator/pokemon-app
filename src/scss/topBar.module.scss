@@ -1,0 +1,8 @@
+.topBar {
+    min-height: 80px;
+    height: fit-content;
+    @media (max-width: 720px) {
+        flex-direction: column;
+        padding: 25px 0;
+    }
+}
