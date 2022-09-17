@@ -65,7 +65,7 @@ const App = () => {
   
   return (
     <main className={`${styles.mainApp} ${darkMode === 'true' ? styles.darkMode : styles.regularMode}`}>
-      <Box sx={{paddingTop: '120px'}}>
+      <Box>
         <TopBar darkMode={darkMode} findPokemonByName={ findPokemonByName } handleDarkModeChange={ handleDarkModeChange }/>
         <Container>
           {dataLoading && 
