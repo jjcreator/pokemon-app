@@ -1,13 +1,29 @@
 .searchBox {
+
     padding: 0 25px;
     @media (max-width: 720px) {
         padding: 5px;
     }
+
     .searchInput {
         &Dark {
+            label {
+                color: #fff !important;
+            }
             * {
-                color: white;
+                color: #fff;
                 border-color: #fefefe !important;
+                input:-webkit-autofill {
+                    -webkit-box-shadow: 0 0 0 50px #303031 inset;
+                    box-shadow:  0 0 0 50px #303031 inset;
+                    -webkit-text-fill-color: #fff;
+                }
+                
+                input:-webkit-autofill:focus {
+                    -webkit-box-shadow: 0 0 0 50px #303031 inset;
+                    box-shadow:  0 0 0 50px #303031 inset;
+                    -webkit-text-fill-color: #fff;
+                } 
             }
         }
 
